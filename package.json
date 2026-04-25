@@ -1,0 +1,38 @@
+{
+  "name": "keith-running-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
+    "@mastra/core": "^1.28.0",
+    "@mastra/duckdb": "^1.2.0",
+    "@mastra/evals": "^1.2.1",
+    "@mastra/libsql": "^1.9.0",
+    "@mastra/loggers": "^1.1.1",
+    "@mastra/memory": "^1.17.1",
+    "@mastra/observability": "^1.10.0",
+    "dotenv": "^17.4.2",
+    "evalite": "^0.19.0",
+    "vitest": "^4.1.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "mastra": "^1.6.3",
+    "typescript": "^6.0.3"
+  }
+}
